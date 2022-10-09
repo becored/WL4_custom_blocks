@@ -9,6 +9,6 @@ https://github.com/becored/WL4_custom_blocks/releases/tag/v1.0
 Download "WL4_custom_blocks_v1.0.zip" from Assets.
 
 ## Credits
-Special thanks to below for rewitten patches:  
+Special thanks for rewitten patches:  
 - ssp  
 - Blanchon
