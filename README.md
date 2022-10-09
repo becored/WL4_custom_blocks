@@ -7,3 +7,8 @@ Patch "WL4_custom_blocks_v1.0.bps" to a ***vanilla*** Wario Land 4(US) rom
 ## Patch Download
 https://github.com/becored/WL4_custom_blocks/releases/tag/v1.0  
 Download "WL4_custom_blocks_v1.0.zip" from Assets.
+
+## Credits
+Special thanks to:  
+- ssp  
+- Blanchon  
