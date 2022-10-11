@@ -2,7 +2,7 @@
 ![pic01](images/pic01.png)  
 ### Including below  
 - WL1 soft block  
-- NxN soft block  
+- M x N soft block  
 - Prize block  
 - Keyzer block  
 - Enemy block  
