@@ -482,6 +482,7 @@ int Sub_806EC50_WarSidePanel_Attack(unsigned short Ypos,unsigned short Xpos)
   unsigned int v5;
   signed int v6;
   struct BgBDdef pDestroy;
+	int blk_width;
 
   v2 = Xpos << 16;
 	v3 = v2 >> 16;
@@ -641,7 +642,7 @@ YBLOCK_NA_AWH_SEARCH:
 						}
 				case YBLOCK_NA_AWH_LU:
 YBLOCK_NA_AWH_BREAK:
-						int blk_width = 0;
+						blk_width = 0;
 						while ( 1 ) {
 							while ( 1 ) {
 								Sub_806F2AC_BgBrokenBlock_ObjSet(&pDestroy);

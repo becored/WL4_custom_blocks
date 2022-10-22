@@ -408,6 +408,7 @@ int Sub_806F524_EnemyPanel_Attack(unsigned short y_grid_pos, unsigned short x_gr
 	int v13;
 	int i;
   struct BgBDdef pDestroy;
+	int blk_width;
 
 	unsigned short Xpos = (x_grid_pos << 22) >> 16;
 	unsigned short Ypos = (y_grid_pos << 22) >> 16;
@@ -605,7 +606,7 @@ YBLOCK_NA_AWH_SEARCH:
 						}
 				case YBLOCK_NA_AWH_LU:
 YBLOCK_NA_AWH_BREAK:
-						int blk_width = 0;
+						blk_width = 0;
 						while ( 1 ) {
 							while ( 1 ) {
 								Sub_806F2AC_BgBrokenBlock_ObjSet(&pDestroy);

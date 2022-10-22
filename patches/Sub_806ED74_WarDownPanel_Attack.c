@@ -479,6 +479,7 @@ int Sub_806ED74_WarDownPanel_Attack(unsigned short Ypos,unsigned short Xpos)
 {
   char v2;
   struct BgBDdef pDestroy;
+	int blk_width;
 
   pDestroy.xp = (Xpos << 16) >> 22;
   pDestroy.yp = (Ypos << 16) >> 22;
@@ -609,7 +610,7 @@ YBLOCK_NA_AWH_SEARCH:
 				}
 		case YBLOCK_NA_AWH_LU:
 YBLOCK_NA_AWH_BREAK:
-				int blk_width = 0;
+				blk_width = 0;
 				while ( 1 ) {
 					while ( 1 ) {
 						Sub_806F2AC_BgBrokenBlock_ObjSet(&pDestroy);
